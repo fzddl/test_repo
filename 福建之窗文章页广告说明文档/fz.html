@@ -1,0 +1,111 @@
+<html>
+<head>
+<title><!--[title]-->_福建之窗</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="description" content="福建之窗实时更新福建新闻，福州新闻，厦门新闻等九地市新闻，网站获省内三十多家媒体的支持，网站包含福建省内主要传媒的电子版，如：福建日报、海峡都市报、福州日报、福州晚报、东南快报、东南早报、泉州晚报、湄洲日报、三明日报、闽东日报、闽西日报、闽北日报、闽南日报等，每天实时发布福建地区、国内、国际、经济、文娱、体育、科教等各类新闻消息。利用充沛的网络资源，及时报道国内以及国际新闻，是海外华人同胞了解中国，了解福建的重要窗口。展现福建的风土人情和民间艺术，通过在线可以用普通话和闽南话收听民间艺术十音八乐，走进家在福州频道，吃喝玩乐简单明了。追踪体育盛事，报道最新娱乐圈明星行踪；提供科技前沿最新情报，最新的军事动态、兵器资料，以及世界军事发展的展望。. ">
+<meta name="keywords" content="<!--[keywords]-->">
+<script type="text/javascript" src="/lj_js/jquery.js"></script>
+<script type="text/javascript" src="/lj_js/tab.js"></script>
+<script type="text/javascript" src="/lj_js/jklist.js"></script>
+<script type="text/javascript">
+window.onload=function(){
+ var o=document.getElementById('infozone');
+ window.setInterval(function(){scrollup(o,20,0);},2000);
+}
+function scrollup(o,d,c){
+ if(d==c){
+  var t=o.firstChild.cloneNode(true);
+  o.removeChild(o.firstChild);
+  o.appendChild(t);
+  t.style.marginTop=o.firstChild.style.marginTop='0px';
+ }
+ else{
+  var s=3,c=c+s,l=(c>=d?c-d:0);
+  o.firstChild.style.marginTop=-c+l+'px';
+  window.setTimeout(function(){scrollup(o,d,c-l)},100);
+ }
+}
+</script>
+<link href="/lj_css/view.css" rel="stylesheet" type="text/css">
+<link href="/lj_css/fj_news.css" rel="stylesheet" type="text/css">
+<style>
+.fj_bbs_banner{text-align:center;}
+table,tr,td{padding:0px;margin:0px;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.fj_ann{border:1px solid #ccc;background:#fff;width:95%;text-align:left;margin:0 auto 15px; margin-top:5px;}
+.fj_w{border-top:1px solid #ccc;}
+.fj_bbs_banner{margin: 10px;}
+</style>
+<!-- AFP两段式代码-公用代码 -->
+<script type="text/javascript" src="http://static.csbew.com/k.js"></script>
+</head>
+
+<body>
+<!--#include virtual="/lj_include/info/nav.shtml"-->
+<!--#include virtual="/lj_include/info/nav_under_ad.shtml"-->
+    <div class="fj_news_con" ><div id="fontc1">&nbsp;&nbsp;&nbsp;&nbsp;<STRONG>当前位置：<A href="/index.shtml">首页</A> &gt; <!--[新闻类别]--> &gt;</STRONG></div></div>
+<div class="newsCon">
+ <div class="fj_main_con">
+    <div class="fj_main_news_con left">      
+    <div id="ArticleTit"><!--[标题]--></div> 
+	<div id="tima">发表时间：<!--[时间]-->　　　　   　来源：<!--[来源]--></div>
+	<center><!--#include virtual="/lj_include/info/share.shtml"--></center>
+	<div id="wz" style="height:auto">
+	  <div id="ad"><!--#include virtual="/lj_include/info/info_jfw.shtml"--></div>
+	  <!--[内容]-->
+	</div>
+	<!-- 75861：文章页横幅广告位C2 -->
+	<script type="text/javascript">
+	_acK({aid:75861,format:0,mode:1,gid:1,serverbaseurl:"afp.csbew.com/"});
+	</script>
+      <div class="fj_ann">
+       <div class="fj_bbs_banner left">
+        <!-- 76019：文章页广告位B6 -->
+		<script type="text/javascript">
+		_acK({aid:76019,format:0,mode:1,gid:1,serverbaseurl:"afp.csbew.com/"});
+		</script>
+       </div>
+       <div class="fj_ann_list right" style="width:390px">
+       <div class="fj_news_padding">
+          <img width="72" height="20" src="/lj_img/xgxw.gif"><br>
+            <div id="ca_txt">
+            <!--[相关新闻]-->
+            </div>	
+          </div>
+       </div>
+       <div class="clear"></div>
+       <div class="fj_w">
+        <div class="fj_news_padding"><span class="STYLE2">版权与免责声明：<BR>
+            1、本网注明"出处：×××"（非福建之窗）的作品，均转载自其它媒体，转载目的在于传递更多信息，并不代表本网赞同其观点和对其真实性负责，本网不承担此类稿件侵权行为的连带责任。<BR>
+            2、在本网的新闻页面或BBS上进行跟帖或发表言论者，文责自负。<BR>
+            3、如涉及作品内容、版权等其它问题，请在30日内同本网联系。</span></div>
+       </div>
+      </div>
+	  <!--#include virtual="/lj_include/info/under_xgxw.shtml"-->
+      </div>
+      <div class="fj_news_con_list left">
+        <h5 class="STYLE3">热文排行</h5>
+              <div id="ca_txt1">
+              <!--#include virtual="/lj_include/info/bbs_top.shtml"-->
+              </div>
+      </div>
+      <div class="fj_news_con_list right">
+      
+        <h5 class="STYLE3">315直通车</h5>
+        <div id="ca_txt1"><!--#include virtual="/lj_include/info/315ok.shtml"--></div>
+        </div>
+      </div>
+    <div class="right fj_news_right_side">
+		<!--#include virtual="/lj_include/info/info_right.shtml"-->
+	</div>
+  <div class="clear"></div>
+ </div>
+ <div class="footer">
+<!--#include virtual="/lj_include/model/footer.html"-->
+</div>
+<!--[点击数统计]-->
+<script src=" http://s118.cnzz.com/stat.php?id=1498980&web_id=1498980&show=pic" language="JavaScript" charset="gb2312"></script>
+</body>
+</html>
